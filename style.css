@@ -284,3 +284,143 @@ nav img{
     font-size: 14px;
   }
 }
+
+.podcast {
+  background-color: #1A0B2E;
+  color: white;
+  text-align: center;
+  padding: 50px 200px 120px 200px;
+
+}
+
+.podcast h1 {
+  font-size: 48px;
+}
+
+.podcast p {
+  padding-top: 16px;
+}
+
+hr {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border: none;
+  height: 0.5px;
+  opacity: 20%;
+  background-color: white;
+}
+
+.statistics {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.statistics h2 {
+  font-size: 48px;
+  color: #00FF88;
+}
+
+@media (max-width: 576px) {
+  .podcast {
+    background-color: #1A0B2E;
+    color: white;
+    text-align: center;
+    padding: 40px 20px 40px 20px;
+  }
+
+  .podcast h1 {
+    font-size: 32px;
+  }
+
+  .statistics h2 {
+    font-size: 40px;
+    color: #00FF88;
+  }
+}
+
+.why-choose {
+  padding: 120px 200px;
+  background-color: #230E3D;
+}
+
+.why-choose h1 {
+  text-align: center;
+  color: white;
+  font-size: 48px;
+}
+
+.tech {
+  display: grid;
+  gap: 30px;
+  padding-top: 40px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-level {
+  color: white;
+  padding: 40px;
+  background-color: #2b0b55;
+  border-radius: 40px;
+}
+
+.grid-level h4 {
+  margin-top: 16px;
+  padding-bottom: 16px;
+  font-size: 24px;
+
+}
+
+.grid-level p{
+  font-size: 16px;
+  opacity: 40%;
+}
+
+.headphone {
+  grid-column: span 1;
+  grid-row: span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.device {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.location {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.bolt {
+  grid-column: span 2;
+  grid-row: span 1;
+
+}
+
+@media (max-width: 576px) {
+
+  .why-choose {
+    padding: 40px 20px;
+    background-color: #230E3D;
+  }
+
+  .tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding-top: 16px;
+
+  }
+
+  .why-choose h1 {
+
+    font-size: 32px;
+  }
+}
