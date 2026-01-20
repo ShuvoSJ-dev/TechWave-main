@@ -235,15 +235,17 @@ nav img{
     top: 0;
     left: 0;
     width: auto;
-    height: 420px;
+    height: 440px;
     background-image: url("./images/hero-bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  
   }
 
   .hero {
     height: 100%;
+  
   }
 
   .hero-circle {
@@ -335,9 +337,21 @@ hr {
     font-size: 32px;
   }
 
+  .statistics {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
   .statistics h2 {
-    font-size: 40px;
+    font-size: 30px;
     color: #00FF88;
+  }
+  .statistics img{
+
+    size: 20px;
   }
 }
 
