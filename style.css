@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .font-inter {
@@ -35,7 +35,7 @@ nav h1 {
 }
 
 .wave {
-  background: linear-gradient( #9100F8, #FB09B4, #F7E93F);
+  background: linear-gradient(#9100F8, #FB09B4, #F7E93F);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -64,7 +64,7 @@ nav ul a {
   transition: 1s;
 }
 
-nav img{
+nav img {
   display: none !important;
   color: white;
   font-size: 24px;
@@ -149,7 +149,7 @@ nav img{
   padding: 8px 20px;
   border-radius: 12px;
   font-weight: 600;
-  font-size:14px;
+  font-size: 14px;
 }
 
 .hero-text {
@@ -240,12 +240,12 @@ nav img{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-  
+
   }
 
   .hero {
     height: 100%;
-  
+
   }
 
   .hero-circle {
@@ -262,15 +262,15 @@ nav img{
   .badge {
     font-size: 12px;
     padding: 6px 16px;
-  position: absolute;
-  top: 10px;
-  right: 5px;
-  color: rgb(0, 0, 0);
-  border-radius: 12px;
-  font-weight: 600;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+    font-weight: 600;
 
-}
-  
+  }
+
   .hero-text {
     margin-top: 5px;
   }
@@ -338,18 +338,19 @@ hr {
   }
 
   .statistics {
-  display: flex;
-  gap: 40px;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 
   .statistics h2 {
     font-size: 30px;
     color: #00FF88;
   }
-  .statistics img{
+
+  .statistics img {
 
     size: 20px;
   }
@@ -388,7 +389,7 @@ hr {
 
 }
 
-.grid-level p{
+.grid-level p {
   font-size: 16px;
   opacity: 40%;
 }
@@ -513,6 +514,7 @@ hr {
     align-items: center;
     justify-content: center;
   }
+
   .video h1 {
     font-size: 39px;
   }
