@@ -576,3 +576,75 @@ hr {
     padding-top: 60px;
   }
 }
+
+.foot {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("./images/footer-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 60px;
+}
+
+footer {
+  width: 1600px;
+  max-width: 100%;
+  height: 250px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.footer-icon {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding-top: 32px;
+}
+
+
+.copyright {
+  color: white;
+  padding-top: 32px;
+}
+
+.foot h1 {
+  color: white;
+  font-size: 60px;
+}
+
+@media (max-width: 576px) {
+  .foot {
+    width: 100%;
+    min-height: 280px;
+    text-align: center;
+    background-image: url("./images/footer-bg.png");
+    background-size: 150% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+  }
+
+  .footer {
+
+    height: 250px;
+
+  }
+
+  .footer-icon {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-top: 24px;
+    flex-wrap: wrap;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
